@@ -1,0 +1,39 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+#django
+/src/music_backend/migrations
+# dependencies
+/src/music_frontend/node_modules
+/src/music_frontend//.pnp
+/src/music_frontend/.pnp.js
+/src/music_frontend//music
+
+# testing
+/src/music_frontend/coverage
+
+# next.js
+/src/music_frontend/.next/
+/src/music_frontend/out/
+
+# production
+/src/music_frontend/build
+
+# misc
+/src/music_frontend/.DS_Store
+/src/music_frontend/*.pem
+
+# debug
+/src/music_frontend/npm-debug.log*
+/src/music_frontend/yarn-debug.log*
+/src/music_frontend/yarn-error.log*
+
+# local env files
+/src/music_frontend/.env.local
+/src/music_frontend/.env.development.local
+/src/music_frontend/.env.test.local
+/src/music_frontend/.env.production.local
+
+# vercel
+/src/music_frontend/.vercel
+
+# typescript
+/src/music_frontend/*.tsbuildinfo
